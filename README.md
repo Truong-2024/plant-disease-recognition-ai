@@ -57,6 +57,8 @@ Qua thực nghiệm, các kiến trúc Deep Learning như EfficientNet-B0 và Re
 
 Trong bài toán phát hiện vị trí bệnh lý, mô hình YOLOv8 thể hiện ưu thế tuyệt đối với độ chính xác tập huấn luyện lên tới 98% và duy trì 85% trên tập kiểm thử. Khả năng khoanh vùng chính xác các vết đốm lá, rỉ sắt hay rệp sáp giúp hệ thống không chỉ đưa ra chẩn đoán mà còn hỗ trợ người dùng định vị cụ thể khu vực cần xử lý. So với RetinaNet hay Fast R-CNN, YOLOv8 cung cấp sự cân bằng tốt nhất giữa tốc độ xử lý (Real-time) và độ tin cậy trong điều kiện dữ liệu thực tế.
 
+### Kết quả GradCAM++
+![Kết quả nhận diện bệnh](screenshots/ketquanhgradcam.png)
 
 
 
