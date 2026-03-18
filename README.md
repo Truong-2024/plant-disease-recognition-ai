@@ -13,7 +13,9 @@ Giải thích mô hình: Tích hợp GradCAM++ để trực quan hóa vùng bệ
 
 ## 🚀 Kiến trúc hệ thống
 Dự án triển khai và so sánh hai nhóm mô hình chính:
+
 Phân loại cây (Classification): EfficientNet-B0, ResNet-50, VGG-16, MobileNetV2, CNN và SVM.
+
 Nhận diện bệnh (Object Detection): YOLOv8, Fast R-CNN và RetinaNet.
 
 ## 🖼️ Demo & Kết quả thực nghiệm
