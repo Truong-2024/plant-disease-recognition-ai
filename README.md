@@ -4,8 +4,11 @@ Dự án Nghiên cứu Khoa học ứng dụng các thuật toán Học sâu (De
 
 ## 🚀 Điểm nổi bật kỹ thuật (Technical Highlights)
 Phân loại loài cây: Nhận diện 16 loại cây cảnh phổ biến trong nhà (Trầu bà, Kim tiền, Lưỡi hổ, Lan ý, Phú quý...).
+
 Phát hiện bệnh lý: Nhận diện và khoanh vùng 11 loại trạng thái bệnh như đốm lá, cháy mép lá, thán thư, rệp sáp, vàng lá....
+
 Xử lý đa mô hình: Kết hợp các kiến trúc CNN tiên tiến để tối ưu hóa giữa độ chính xác và tốc độ xử lý trên thiết bị di động.
+
 Giải thích mô hình: Tích hợp GradCAM++ để trực quan hóa vùng bệnh, giúp người dùng hiểu rõ tại sao AI đưa ra kết quả đó.
 
 ## 🚀 Kiến trúc hệ thống
