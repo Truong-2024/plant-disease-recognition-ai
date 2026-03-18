@@ -21,7 +21,7 @@ Thư viện: OpenCV (xử lý ảnh), Scikit-learn, Matplotlib
 Công cụ gán nhãn: CVAT (với định dạng COCO JSON) 
 
 ## 📂 Luồng xử lý chính
-![Luồng xử lý dữ liệu](screenshots/luõngulydulieu.png)
+![Luồng xử lý dữ liệu](screenshots/luongxulydl.drawio.png)
 
 ## 🚀 Kiến trúc hệ thống
 Dự án triển khai và so sánh hai nhóm mô hình chính:
