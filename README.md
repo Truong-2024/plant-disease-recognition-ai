@@ -53,6 +53,13 @@ Cuối cùng, ứng dụng sử dụng Grad-CAM để tạo bản đồ nhiệt 
 ![Kết quả Grad-CAM](screenshots/gradcam.png)
 
 ## 📊 Kết quả thực nghiệm
+### Kết quả phân loại cây
+![Kết quả phân loại cây](screenshots/ketquaphanloaisosanh.png)
+Qua thực nghiệm, các kiến trúc Deep Learning như EfficientNet-B0 và ResNet-50 cho thấy sự ổn định vượt trội với độ chính xác tập Test đạt 95% - 96%. Kết quả này khẳng định khả năng trích xuất đặc trưng hình ảnh mạnh mẽ của các mạng tích chập hiện đại đối với dữ liệu thực vật. Đặc biệt, việc các mô hình nhẹ như MobileNetV2 vẫn duy trì được độ chính xác cao (95%) cho thấy tiềm năng triển khai thực tế trên các thiết bị di động với tài nguyên hạn chế.
+
+### Kết quả nhận diện bệnh
+![Kết quả nhận diện bệnh](screenshots/ketquanhandiensosanh.png)
+Trong bài toán phát hiện vị trí bệnh lý, mô hình YOLOv8 thể hiện ưu thế tuyệt đối với độ chính xác tập huấn luyện lên tới 98% và duy trì 85% trên tập kiểm thử. Khả năng khoanh vùng chính xác các vết đốm lá, rỉ sắt hay rệp sáp giúp hệ thống không chỉ đưa ra chẩn đoán mà còn hỗ trợ người dùng định vị cụ thể khu vực cần xử lý. So với RetinaNet hay Fast R-CNN, YOLOv8 cung cấp sự cân bằng tốt nhất giữa tốc độ xử lý (Real-time) và độ tin cậy trong điều kiện dữ liệu thực tế.
 
 
 
