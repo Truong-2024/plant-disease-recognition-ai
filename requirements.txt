@@ -1,0 +1,11 @@
+Flask==2.3.2 # Hoặc phiên bản mới nhất bạn muốn dùng
+ultralytics==8.0.218 # Hoặc phiên bản bạn đã dùng trên Kaggle
+torch==2.0.1+cpu # Hoặc phiên bản GPU cụ thể, ví dụ: torch==2.0.1+cu118
+torchvision==0.15.2+cpu # Tương tự
+torchaudio==2.0.2+cpu # Tương tự
+pytorch-grad-cam==1.4.0 # Hoặc phiên bản cụ thể
+numpy==1.26.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+matplotlib==3.8.4
+tqdm==4.66.2 

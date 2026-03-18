@@ -1,0 +1,132 @@
+/* style.css */
+
+body {
+    background-color: #f8f9fa; /* Màu nền nhẹ cho toàn bộ trang */
+    font-family: Arial, sans-serif; /* Font chữ dễ đọc */
+    color: #343a40; /* Màu chữ mặc định */
+}
+
+/* Header */
+header {
+    background-color: #dc3545 !important; /* Đảm bảo màu đỏ của Bootstrap */
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+/* Upload Area */
+#upload-area {
+    border: 2px dashed #dc3545; /* Viền nét đứt màu đỏ */
+    border-radius: 10px; /* Góc bo tròn */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua */
+    min-height: 180px; /* Chiều cao tối thiểu */
+    padding: 30px; /* Khoảng đệm bên trong */
+    text-align: center; /* Căn giữa nội dung */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Hiệu ứng chuyển đổi màu */
+    display: flex; /* Dùng flexbox để căn giữa nội dung */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#upload-area p.lead {
+    font-size: 1.25rem; /* Kích thước chữ lớn hơn */
+    color: #6c757d; /* Màu chữ xám */
+    margin-bottom: 15px;
+}
+
+#upload-area.dragover {
+    background-color: #ffe6e6; /* Đổi màu nền khi kéo file qua */
+    border-color: #a00; /* Đổi màu viền đậm hơn khi kéo file qua */
+}
+
+/* Image Preview within Upload Area */
+#preview-container {
+    margin-top: 15px;
+    display: flex; /* Sử dụng flex để căn giữa ảnh preview */
+    justify-content: center;
+    align-items: center;
+}
+
+#image-preview { /* Ảnh preview đơn */
+    max-height: 250px; /* Chiều cao tối đa cho ảnh preview */
+    width: auto; /* Chiều rộng tự động */
+    border-radius: 8px; /* Góc bo tròn */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+    display: block; /* Mặc định là block để có thể ẩn/hiện */
+}
+
+#image-placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+
+/* Loading Spinner */
+#loading {
+    margin-top: 15px;
+    color: #dc3545; /* Màu đỏ của Bootstrap */
+}
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: .3em;
+}
+
+/* Result Cards (Original and Heatmap) */
+/* Cập nhật selector này để phù hợp với cấu trúc HTML của card Bootstrap */
+.card {
+    border: none; /* Bỏ viền mặc định của card Bootstrap */
+    border-radius: 12px; /* Góc bo tròn hơn */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Đổ bóng nổi bật hơn */
+    height: 100%; /* Đảm bảo card có chiều cao bằng nhau trong cùng một hàng */
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: #007bff; /* Mặc định màu xanh cho card-header */
+    color: white;
+    border-top-left-radius: 12px; /* Đảm bảo góc bo tròn cho header */
+    border-top-right-radius: 12px;
+}
+/* Màu riêng cho header của Heatmap */
+.card .card-header.bg-success {
+    background-color: #28a745 !important;
+}
+.card .card-header.bg-primary {
+    background-color: #007bff !important;
+}
+
+
+.card-body img {
+    max-height: 400px; /* Chiều cao tối đa cho ảnh kết quả trong card */
+    object-fit: contain; /* Đảm bảo ảnh vừa khung mà không bị cắt */
+    width: 100%; /* Ảnh chiếm hết chiều rộng của body */
+}
+
+/* Placeholder trong card body */
+.card-body p {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Other text styles for classifications/detections if you add them back */
+h2 {
+    color: #343a40; /* Màu tiêu đề chung */
+    font-weight: bold;
+}
+
+h5.text-success { color: #28a745 !important; }
+h5.text-danger { color: #dc3545 !important; }
+
+/* Dòng phân cách */
+hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
