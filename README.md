@@ -20,14 +20,8 @@ Thư viện: OpenCV (xử lý ảnh), Scikit-learn, Matplotlib
 
 Công cụ gán nhãn: CVAT (với định dạng COCO JSON) 
 
-## 📂 Quy trình thực hiện
-Thu thập dữ liệu: Hơn 16 loài cây và các loại bệnh từ internet và chụp thực tế tại vườn.
-
-Tiền xử lý: Chuẩn hóa kích thước RGB, cân bằng lớp và tăng cường dữ liệu (Data Augmentation) bằng cách xoay, lật, thêm nhiễu Gaussian.
-
-Huấn luyện: Thực hiện trên các kiến trúc SOTA và tối ưu hóa tham số.
-
-Triển khai: Tích hợp vào ứng dụng Web/Mobile hỗ trợ tiếng Việt
+## 📂 Luồng xử lý chính
+![Luồng xử lý dữ liệu](screenshots/luõngulydulieu.png)
 
 ## 🚀 Kiến trúc hệ thống
 Dự án triển khai và so sánh hai nhóm mô hình chính:
