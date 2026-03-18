@@ -21,4 +21,17 @@ Nhận diện bệnh (Object Detection): YOLOv8, Fast R-CNN và RetinaNet.
 ## 🖼️ Demo & Kết quả thực nghiệm
 ### Giao diện hệ thống
 Khi người dùng chưa tải ảnh lên, giao diện hiển thị khung tương tác chính với nút “Phân loại và nhận diện bệnh”, cho phép người dùng kéo/thả hoặc nhấn để chọn ảnh từ thiết bị.
+![Giao diện chính](screenshots/giaodien.png)
+![Tải ảnh lên](screenshots/giaodientaianh.png)
+
+### Kết quả phân loại 
+Sau khi xử lý ảnh, ứng dụng hiển thị tên loại cây được dự đoán cùng với độ tin cậy.
+![Ketquaphanloai](screenshots/ketquaphanloai.png)
+### Kết quả nhận diện
+Tiếp theo, hệ thống sử dụng mô hình YOLO để phát hiện các vùng bệnh trên lá cây.
+![Ketquanhandien](screenshots/ketquanhandien.png)
+### Phân tích trực quan với XGrad-CAM
+Cuối cùng, ứng dụng sử dụng Grad-CAM để tạo bản đồ nhiệt (heatmap) trực quan, giúp người dùng thấy rõ vùng ảnh có ảnh hưởng nhiều đến dự đoán bệnh.
+![Kết quả Grad-CAM](screenshots/gradcam.png)
+
 
